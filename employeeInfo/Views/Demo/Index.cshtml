@@ -1,0 +1,19 @@
+﻿@model employee_sData
+
+@{
+        ViewBag.Title = "DemoViewAsPdfAsync"; }
+@{ 
+     var data = (employee_sData)ViewData["data"];
+    // var fname = ViewData["fname"];
+    //var data = ViewBag.data;
+}
+
+<h3>Id:@Model.employeeId </h3>
+<h3>first:@Model.firstName </h3>
+<h3>last name: @Model.LastName</h3>
+<h3>email: @Model.Email</h3>
+
+<h3>department id:@Model.department_id</h3>
+<h3>hire date:  @Model.hire_date</h3>
+<h3>salary:  @Model.salary</h3>
+
